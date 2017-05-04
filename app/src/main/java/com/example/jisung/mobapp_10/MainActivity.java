@@ -128,6 +128,7 @@ public class MainActivity extends AppCompatActivity {
     class JavaScriptMethodsCustom {
         JavaScriptMethodsCustom(){}
 
+
         @JavascriptInterface
         public void display(){
             Toast.makeText(getApplicationContext(), "Hello", Toast.LENGTH_SHORT).show();

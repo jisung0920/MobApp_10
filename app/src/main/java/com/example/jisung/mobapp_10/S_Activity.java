@@ -18,7 +18,7 @@ public class S_Activity extends AppCompatActivity {
             startActivity(intent);
         }
         else{
-            Intent intent = new Intent(S_Activity.this,MainActivity.class);
+            Intent intent = new Intent(S_Activity.this,PracActivity.class);
             startActivity(intent);
         }
     }
