@@ -9,11 +9,13 @@
     tools:context="com.example.jisung.mobapp_10.S_Activity">
 
     <Button
+        android:onClick="onClick"
         android:id="@+id/b1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="수업"/>
     <Button
+        android:onClick="onClick"
         android:id="@+id/b2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
